@@ -23,5 +23,7 @@
         
         <% Admin admin = (Admin) session.getAttribute("loggedAdmin");%>
         <%= admin.getName() %>  <!-- print out the Name of admin -->
+    <br><%= admin.getEmail()%>  <!-- print out the Email of admin -->
+    <br><%= admin.getDob()%>    <!-- print out the DOB of admin -->
     </body>
 </html>

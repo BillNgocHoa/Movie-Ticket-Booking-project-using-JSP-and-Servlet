@@ -40,6 +40,7 @@
                 <div class="card-panel center light-blue dark-3">
                     <span class="card-title white-text">Admin Login</span>
                 </div>
+                <!-- Go to Admin Login Servlet  -->
                 <form class ="form" action="AdminLoginServlet" method="POST">
                     <div class="input-field">
                         <input type="email" class="validate" name="email" required>
